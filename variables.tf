@@ -23,7 +23,6 @@ variable "vdc_name" {
     type        = string
     description = "VDC Adı:"
     default     = "list"
-
 }
 
 
@@ -100,7 +99,6 @@ variable "adapter_type" {
     type        = string
     description = "Adapter Type:*"
     default     = "list"
-
 }
 
 
