@@ -45,7 +45,7 @@ resource "vcd_vapp_vm" "web1" {
     name               = var.org_network_name
     ip_allocation_mode = "MANUAL"
     ip                 = var.vm_ip
-    adapter_type       = "VMXNET3"
+    adapter_type       = var.adapter_type
     is_primary         = true
   }
 
