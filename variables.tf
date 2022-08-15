@@ -36,6 +36,22 @@ variable "vapp_description" {
     description = "vApp Açıklaması:"
 }
 
+variable "vm_name" {
+    type        = string
+    description = "Sunucu Adı:"
+}
+
+variable "computer_name" {
+    
+    type        = string
+    description = "Comp.Name:*"
+}
+
+variable "vm_description" {
+    type        = string
+    description = "MANAGED/UNMANAGED:"
+    default     = "list"
+}    
 
 variable "vm_cpu" {
     type        = string
@@ -92,14 +108,3 @@ variable "vm_ip" {
     type        = string
     description = "IP Adresi:"
 }
-
-variable "vm_name" {
-    type        = string
-    description = "Sunucu Adı:"
-}
-
-variable "vm_description" {
-    type        = string
-    description = "MANAGED/UNMANAGED:"
-    default     = "list"
-}    
