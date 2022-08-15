@@ -1,4 +1,3 @@
-variables.tf
 variable "cd_username" {
     type        = string
     description = "vCD UserName"
