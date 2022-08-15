@@ -2,6 +2,7 @@ variable "cd_username" {
     type        = string
     description = "vCD UserName"
 }
+
 variable "cd_password" {
     type        = string
     description = "vCD Password"
@@ -42,7 +43,6 @@ variable "vm_name" {
 }
 
 variable "computer_name" {
-    
     type        = string
     description = "Comp.Name:*"
 }
