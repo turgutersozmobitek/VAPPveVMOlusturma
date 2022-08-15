@@ -31,6 +31,11 @@ variable "vapp_name" {
     description = "VAPP Adı:"
 }
 
+variable "vapp_description" {
+    type        = string
+    description = "vApp Açıklaması:"
+}
+
 
 variable "vm_cpu" {
     type        = string
