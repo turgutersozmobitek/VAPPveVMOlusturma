@@ -1,34 +1,34 @@
 variable "cd_username" {
     type        = string
-    description = "vCD UserName"
+    description = "vCD UserName*"
 }
 
 variable "cd_password" {
     type        = string
-    description = "vCD Password"
+    description = "vCD Password*"
 }
 
 variable "cd_vdcadres" {
     type        = string
-    description = "vCD Adresi"
+    description = "vCD Adresi*"
 }
 
 variable "org_name" {
     type        = string
-    description = "Organizasyon İsmi:"
+    description = "Organizasyon İsmi:*"
     default     = "list"
 }
 
 variable "vdc_name" {
     type        = string
-    description = "VDC Adı:"
+    description = "VDC Adı:*"
     default     = "list"
 }
 
 
 variable "vapp_name" {
     type        = string
-    description = "VAPP Adı:"
+    description = "vAPP Adı:*"
 }
 
 variable "vapp_description" {
@@ -38,7 +38,7 @@ variable "vapp_description" {
 
 variable "vm_name" {
     type        = string
-    description = "Sunucu Adı:"
+    description = "Sunucu Adı:*"
 }
 
 variable "computer_name" {
@@ -54,44 +54,44 @@ variable "vm_description" {
 
 variable "vm_cpu" {
     type        = string
-    description = "CPU:"
+    description = "CPU:*"
     default     = "list"
 }
 
 variable "vm_cpu_core" {
     type        = string
-    description = "CPU Core:"
+    description = "CPU Core:*"
     default     = "list"
 }
 
 
 variable "vm_memory" {
     type        = string
-    description = "Memory:"
+    description = "Memory:*"
     default     = "list"
 }
 
 variable "vm_disk_size" {
     type        = string
-    description = "Disk:"
+    description = "Disk:*"
     default     = "list"
 }
 
 variable "catalog_name" {
     type        = string
-    description = "Catalog:"
+    description = "Catalog:*"
     default     = "list"
 }
 
 variable "template_name" {
   type        = string
-  description = "OS:"
+  description = "OS:*"
   default     = "list"
 }
 
 variable "org_network_name" {
     type        = string
-    description = "Network Adı:"
+    description = "Network Adı:*"
     default     = "list"
 }
 
@@ -104,5 +104,5 @@ variable "adapter_type" {
 
 variable "vm_ip" {
     type        = string
-    description = "IP Adresi:"
+    description = "IP Adresi:*"
 }
