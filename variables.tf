@@ -25,7 +25,6 @@ variable "vdc_name" {
     default     = "list"
 }
 
-
 variable "vapp_name" {
     type        = string
     description = "vAPP Adı:*"
@@ -64,7 +63,6 @@ variable "vm_cpu_core" {
     default     = "list"
 }
 
-
 variable "vm_memory" {
     type        = string
     description = "Memory:*"
@@ -100,7 +98,6 @@ variable "adapter_type" {
     description = "Adapter Type:*"
     default     = "list"
 }
-
 
 variable "vm_ip" {
     type        = string
